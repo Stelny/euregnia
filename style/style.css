@@ -445,3 +445,18 @@ h2 {
 .footer-copyright p {
 	margin: 0;
 }
+.footer-text-section {
+	padding-left: 90px;
+	background: url(../icons/euro.svg);
+	background-repeat: no-repeat;
+}
+.footer-text-section p {
+	color: white;
+}
+footer p {
+	margin-bottom: 0.5rem;
+}
+footer .phone {
+	font-size: 24px;
+	font-weight: bold;
+}
