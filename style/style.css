@@ -460,3 +460,31 @@ footer .phone {
 	font-size: 24px;
 	font-weight: bold;
 }
+.social-wrap {
+	display: flex;
+	flex-wrap: wrap;
+}
+.social-wrap a {
+	display: block;
+	margin: 4px;
+}
+.social-wrap a:hover {
+	text-decoration: none;
+	display: block;
+}
+.social-text {
+	color: white;
+	font-weight: 600;
+	font-size: 20px;
+}
+.footer-form-heading span {
+	color: #c98793;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: 'Barlow', sans-serif;
+}
+.footer-form-heading h3 {
+	color: white;
+	font-size: 32px;
+	font-weight: 600;
+}
