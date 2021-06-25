@@ -449,6 +449,9 @@ h2 {
 
 } 
 @media (max-width: 1200px) { 
+	.navbar-nav {
+		text-align: center;
+	}
 	.language-picker {
 		max-width: inherit;
 	}
@@ -765,4 +768,64 @@ footer .phone {
 	background: var(--defaultColor);
 	color: white;
 	text-decoration: none;
+}
+.page {
+	padding: 4rem 0;
+}
+.page table {
+	width: 100%;
+}
+.page table tr {
+border-bottom: 1px solid #ececf2;
+}
+.page thead tr td {
+background: #f6f6f6;
+color: black;
+font-weight: 600;
+}
+.page table tr td {
+padding: 15px 20px;
+font-size: 14px;
+min-width: 150px;
+}
+.grey-bg {
+	background: #f6f7f9;
+	padding: 5rem 0;
+}
+.form-input {
+	text-align: center;
+	padding: 1rem 0;
+}
+.form-input input {
+	border: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+	background: none;
+	border-bottom: 1px solid var(--defaultColor);
+	outline: none;
+	color: black;
+	width: 100%;
+}
+.form-input input::placeholder, .form-input textarea::placeholder {
+	color: #979797;
+}
+.form-input textarea {
+	border: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+	background: none;
+	padding: 0.5rem 1rem;
+	border: 1px solid var(--defaultColor);
+	outline: none;
+	color: black;
+	width: 100%;
+}
+.contact-form {
+	max-width: 1000px;
+	margin: auto;
+}
+.red-btn.dark {
+	background: var(--defaultColor);
 }
