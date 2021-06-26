@@ -464,6 +464,18 @@ h2 {
 	}
 }
 
+#map {
+	padding-top: 3rem;
+}
+iframe {
+	max-width: 100%;
+	width: 100%;
+}
+#map iframe {
+	margin: 0;
+	padding: 0;
+}
+
 @media (max-width: 768px) { 
 	.news-content {
 		flex-direction: column;
