@@ -11,10 +11,13 @@ $(document).ready(function(){
       dots:false,
       responsive:{
           0:{
-              items:1
+              items:2
           },
           600:{
-              items:2
+              items:4
+          },
+          800:{
+            items:5
           },
           1000:{
               items:7
